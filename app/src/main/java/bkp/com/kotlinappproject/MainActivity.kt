@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import bkp.com.kotlinappproject.First.FirstActivity
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,6 +35,16 @@ class MainActivity : AppCompatActivity() {
 
         button4.setOnClickListener(){
             val intent = Intent(this, FourthActivity::class.java)
+            startActivity(intent)
+        }
+
+        button5.setOnClickListener(){
+            val intent = Intent(this,FifthActivity::class.java)
+            startActivity(intent)
+        }
+
+        button6.setOnClickListener(){
+            val intent = Intent(this,SixthActivity::class.java)
             startActivity(intent)
         }
 
