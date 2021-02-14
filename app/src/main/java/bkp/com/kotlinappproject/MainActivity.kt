@@ -33,6 +33,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        button4.setOnClickListener(){
+            val intent = Intent(this, FourthActivity::class.java)
+            startActivity(intent)
+        }
+
 
 
     }

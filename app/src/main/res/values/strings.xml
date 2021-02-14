@@ -31,4 +31,8 @@
         <item>React-native</item>
     </string-array>
 
+    <string name="button">click button</string>
+    <string name="dialogTitle">Delete File</string>
+    <string name="dialogMessage">Deleting file may be harm your system</string>
+
 </resources>
