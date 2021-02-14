@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/as_textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter text to display"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/as_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="Enter your text"
+        android:textColorHint="@color/black"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/as_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:text="Click"
+        />
+
+    <TextView
+        android:id="@+id/as_textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Your text will be appear here!!"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/as_textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="-----"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/as_textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Click to reset"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>
